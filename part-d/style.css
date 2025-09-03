@@ -1,0 +1,68 @@
+* {
+    font-family: Epunda Slab;
+}
+h2 {
+    font-weight: bold;
+}
+.page-title {
+    color: darkblue;
+    text-align: center;
+    text-shadow: 3px 3px 5px red;
+}
+
+body {
+    margin-top: 100px;
+}
+
+#sixteen img {
+    width: 500px;
+    height: 300px;
+    filter: grayscale(100%);
+}
+#sixteen img:hover {
+    width: 500px;
+    height: 300px;
+    filter: grayscale(0%);
+}
+
+#seventeen img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#eightteen img {
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+#eightteen img:hover {
+     transform: scale(1.2);
+}
+
+#nineteen {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid blue;
+    box-shadow: 8px 6px 4px rgb(61, 219, 61);
+}
+#twenty button {
+    border: none;
+    background-color: rgba(137, 43, 226, 0.6);
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#twenty button:hover {
+    color: black;
+    background-color: rgba(137, 43, 226, 0.9);
+    transform: scale(1.2);
+}

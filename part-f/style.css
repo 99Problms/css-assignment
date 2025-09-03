@@ -1,0 +1,114 @@
+* {
+    font-family: Epunda Slab;
+}
+h2 {
+    font-weight: bold;
+}
+.page-title {
+    color: darkblue;
+    text-align: center;
+    text-shadow: 3px 3px 5px red;
+}
+
+#twentyfour {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px lightgray;
+}
+.card-flex img {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.card-flex h3 {
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.card-flex p {
+   text-align: justify;
+   padding-right: 5px;
+   padding-left: 5px;
+}
+
+ @media (max-width: 768px) {
+    #twentyfour  {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
+.twentyfour-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    
+}
+
+.card-grid{
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px lightgray;
+}
+.card-grid h3,
+.card-grid p {
+    padding: 0 5px;
+    text-align: justify;
+}
+.card-grid img {
+    width: 100%;
+    height: 200px;
+}
+
+ @media (max-width: 768px) {
+    .twentyfour-grid  {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+        row-gap: 20px;
+    }
+}
+
+
+
+#twentysix button {
+    background-color: aqua;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-left: 50px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+#twentysix button:hover {
+    background-color: rgb(255, 0, 179);
+    color: rgb(0, 0, 0);
+    
+}
+#twentyseven {
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+  100%  {background-color:yellow; left:900px; top:0px;}
+}
+
+#twentyeight p {
+    background-image: linear-gradient(to right, #ff00ff, #00ffff);
+    background-clip: text;
+    color: transparent;
+}

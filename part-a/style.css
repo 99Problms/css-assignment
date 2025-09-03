@@ -1,0 +1,28 @@
+body {
+    background-color: lightgray;
+}
+
+.external {
+    font-size: 2rem;
+}
+
+.page-title {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#four h2 {
+    font-weight: bold;
+}
+#four p {
+    font-weight: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+#five a {
+    text-decoration: none;
+}
+#five a:hover {
+    color: red;
+    font-weight: bold;
+}

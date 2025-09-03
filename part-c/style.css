@@ -1,0 +1,114 @@
+* {
+    font-family: Epunda Slab;
+}
+h2 {
+    font-weight: bold;
+}
+.page-title {
+    color: darkblue;
+    text-align: center;
+    text-shadow: 3px 3px 5px red;
+}
+
+body {
+    margin-top: 100px;
+    height: 2000px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header img {
+    padding: 5px;
+    width: 100px;
+    height: 60px;
+}
+
+header button {
+    height: 40px;
+    margin-right: 5px;
+}
+
+nav {
+    background-color: aquamarine;
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+}
+
+ul {
+    display: flex;
+    column-gap: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 10px;
+    
+}
+
+#eleven {
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    margin: 30px;
+    border: 5px dashed blue;
+}
+
+.twelve-inline {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px dashed blue;
+    display: inline-block;
+}
+
+.twelve-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twelve-flex div {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid blue;
+}
+
+.fifteen-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fifteen-flex h2 {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid rgb(0, 183, 255);
+}
+
+.fifteen-grid {
+    display: grid;
+    justify-content: center;
+}
+
+.fifteen-grid h2 {
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid rgb(0, 183, 255);
+}
+
+

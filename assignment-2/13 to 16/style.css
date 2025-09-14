@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 80px;
+    padding-left: 150px;
+    height: 3000px;
+}
+
+.navbar {
+    background-color: rgb(4, 79, 125);
+    display: flex;
+    height: 60px;
+    align-items: center;
+    padding-left: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-left: 30px;
+}
+
+.nav-menu li {
+    list-style-type: none;
+}
+
+.nav-menu li a {
+    color: white;
+}
+
+.nav-menu li a:hover {
+    color: red;
+}
+
+.call-to-action {
+    margin-right: 20px;
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.call-to-action:hover {
+    background-color: white;
+    color: black;
+}
+
+.vertical-menu {
+    background-color: red;
+    position: fixed;
+    top: 0;
+    bottom: 0vh;
+    left: 0;
+    margin-top: 60px;
+
+}
+.vertical-menu li {
+    padding: 5px 30px;
+    border: 2px solid white;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.vertical-menu li:hover {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+th {
+    background-color: blueviolet;
+    color: white;
+}
+tr, td {
+    padding: 5px;
+}

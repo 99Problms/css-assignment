@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>27</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <script>
+        function showPassword() {
+            var x = document.getElementById("password");
+            if (x.type === "password"){
+                x.type = "text";
+            }else {
+                x.type = "password";
+            }
+        }
+    </script>
+    <div class="file">
+        <h2>27. File upload input </h2>
+        <form>
+            <label for="file-upload" id="file-upload-label">Upload your file</label><br>
+            <input type="file" name="file-upload" id="file-upload">
+        </form>
+    </div>
+
+    <div class="password-toggle">
+        <h2>28. Password Toggle</h2>
+        <form>
+            <label for="password" id="password-label">Password</label><br>
+            <input type="password" name="password" id="password">
+            <input type="checkbox" name="checkbox" id="checkbox" onclick="showPassword()">
+            <label for="checkbox" id="checkbox-label">Show password</label><br>
+        </form>
+    </div>
+
+    <div class="search-bar">
+        <h2>29. Search Bar</h2>
+        <form>
+            <label for="search">Search For</label>
+            <input type="text" id="search" name="search" placeholder="Enter text to search">
+            <button type="submit" id="search-btn">Search</button>
+        </form>
+    </div>
+
+</body>
+</html>

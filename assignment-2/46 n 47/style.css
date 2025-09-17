@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  /* width: 100vw; */
+  /* position: relative; */
+  background-image: url('https://thumbs.dreamstime.com/b/blurred-background-water-green-trees-sunlight-reflection-abstract-nature-banner-design-template-moc-illustration-370277967.jpg');
+  height: 200px;
+  display: flex;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
+.banner-text h1 {
+  color: white;
+}
+
+.banner-text p {
+  color: rgb(218, 218, 218);
+}
+
+.post-section {
+  display: flex;
+  margin-top: 50px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  flex: 3;
+}
+
+.post {
+  padding-bottom: 20px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 25vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}

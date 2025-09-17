@@ -1,0 +1,33 @@
+body {
+    width: 95%;
+    margin: auto;
+}
+
+.flexstack {
+    display: flex;
+    background-color: aquamarine;
+    column-gap: 20px;
+    height: 200px;
+}
+
+.item {
+    flex: 1;
+    padding: 10px;
+    height: 50px;
+}
+
+.item1 {
+    background-color: bisque;
+}
+
+.item2 {
+    background-color: rgb(15, 5, 156);
+}
+
+.item3 {
+    background-color: rgb(255, 0, 21);
+}
+
+.item4 {
+    background-color: rgb(6, 226, 61);
+}

@@ -1,0 +1,26 @@
+.shapes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.oval {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #000;
+}

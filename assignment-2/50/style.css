@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  display: flex;
+  margin-top: 50px;
+    background-color: lightgray;
+}
+.info {
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 00;
+  color: white;
+
+}
+.info i {
+  padding-right: 6px;
+}
+.map-location {
+  flex: 1;
+  padding: 10px;
+}

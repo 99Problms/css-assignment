@@ -1,0 +1,52 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    margin-bottom: 6px;
+}
+
+.file {
+    padding: 50px;
+}
+
+#file-upload {
+    background-color: rgb(138, 138, 138);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#file-upload-label {
+    font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   padding: 10px;
+   display: inline-block;
+}
+
+.password-toggle {
+    padding: 50px;
+}
+
+
+#search {
+    padding: 4px 7px;
+    border-radius: 30px;
+}
+
+#search-btn { 
+    background-color: rgba(0, 162, 255, 0.623);
+    border: none;
+    padding: 6px 13px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#search-btn:hover { 
+    background-color: rgba(0, 162, 255, 0.822);
+    outline: none;
+    color: white;
+    transform: scale(1.1);
+}

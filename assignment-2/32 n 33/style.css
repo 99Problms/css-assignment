@@ -1,0 +1,42 @@
+body {
+    width: 95%;
+    margin: auto;
+}
+
+.banner {
+    background-image: linear-gradient(to right, red, green, blue, orange);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.vertical {
+    display: flex;
+    background-image: url("https://t3.ftcdn.net/jpg/03/16/91/28/360_F_316912806_RCeHVmUx5LuBMi7MKYTY5arkE4I0DcpU.jpg");
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.vertical h2,
+.vertical p {
+
+    color: white;
+}
+
+.horizontal {
+    display: flex;
+    background-image: url("https://t3.ftcdn.net/jpg/03/16/91/28/360_F_316912806_RCeHVmUx5LuBMi7MKYTY5arkE4I0DcpU.jpg");
+    height: 300px;
+    align-items: center;
+}
+
+.horizontal h2,
+.horizontal p {
+    color: white;
+}

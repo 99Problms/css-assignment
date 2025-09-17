@@ -1,0 +1,53 @@
+.inter-font {
+    font-family: Inter, sans-serif;
+}
+
+.inter-font h2{
+    font-weight: 800;
+}
+
+.inter-font p{
+    font-weight: 300;
+}
+
+.cossette-font {
+    font-family: Cossette Titre, sans-serif;
+}
+
+.cossette-font h2{
+    font-weight: 800;
+}
+
+.cossette-font p{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.oswald-font {
+    font-family: Oswald, sans-serif;
+}
+
+.oswald-font h2{
+    font-weight: 800;
+}
+
+.oswald-font p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.tagesschrift-font {
+    font-family: Tagesschrift, sans-serif;
+}
+
+.tagesschrift-font h2{
+    font-weight: 800;
+}
+
+.tagesschrift-font p{
+    font-weight: 200;
+    font-style: oblique;
+    font-size: 13px;
+}

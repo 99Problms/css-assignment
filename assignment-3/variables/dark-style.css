@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --priamry: #FFA800;
+    --secondary: #be7f02; 
+    --white: #fff;
+    --dark: black;
+    --font-size-2: 2rem;
+}
+
+body {
+    color: var(--priamry);
+    font-family: "Inter", sans-serif;
+    background-color: var(--dark);
+}
+
+section {
+    padding: 3rem 10%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+.site-title {
+    text-align: center;
+    font-size: var(--font-size-2);
+    padding: 2rem 0;
+}
+
+.menu {
+    display: flex;
+    background-color: var(--dark);
+    justify-content: space-evenly;
+    height: 3rem;
+    align-items: center;
+    border-top: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
+}
+
+.menu a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    height: 100%;
+    align-content: center;
+    padding: 0 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover{
+    background-color: var(--priamry);
+}
+
+.destination {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card h3 {
+    position: absolute;
+    background-color: var(--dark);
+    bottom: 10px;
+    right: 10px;
+    padding: 2px 5px;
+}
+
+@media screen and (max-width: 426px) {
+    .destination {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+.post-section {
+  display: flex;
+  margin-top: 50px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  flex: 3;
+}
+
+.post {
+  padding-bottom: 20px;
+}
+.post h2 {
+    font-size: var(--font-size-2);
+}
+.post p {
+    color: var(--secondary);
+}
+
+.meta span {
+    border: 1px solid var(--priamry);
+    border-radius: 10px;
+    padding: 0px 8px;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+  height: 25vh;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.gallery {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+}

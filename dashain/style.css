@@ -401,37 +401,37 @@ header {
     flex: 1;
 }
 
-#d84 h2 {
+.d84 h2 {
     padding-bottom: 5px;
 }
 
-#d84 h2::before,
-#d84 h2::after {
+.d84 h2::before,
+.d84 h2::after {
     content: "--";
     padding: 5px;
 
 }
 
-#d84 label {
+.d84 label {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: rgb(1, 1, 1);
 }
 
-#d84 input {
+.d84 input {
     padding: 4px 5px;
     border: none;
     border-radius: 5px;
 }
 
-#d84 input:focus {
+.d84 input:focus {
     /* outline: none; */
     outline: 2px solid rgb(224, 121, 12);
     box-shadow: 0 0 10px black;
 }
 
-#d84 button {
+.d84 button {
     background-color: #0e0eb78b;
     color: white;
     width: 30%;
@@ -441,12 +441,12 @@ header {
     font-weight: bold;
 }
 
-#d84 button:hover {
+.d84 button:hover {
     background-color: #0e0eb7d9;
 }
 
-#d84 input[type="radio"],
-#d84 input[type="checkbox"] {
+.d84 input[type="radio"],
+.d84 input[type="checkbox"] {
   accent-color: #007bff; /* Example: blue accent color */
 }
 
@@ -508,6 +508,27 @@ header {
     /* justify-content: flex-start; */
 }
 
+#d86 .email-icon {
+    background: url("./mail.png") no-repeat;
+    background-size: 20px;
+    background-color: white;
+    padding-left: 25px;
+    background-position: 3px;
+}
+#d86 .mobile-icon {
+    background: url("./cell-phone.png") no-repeat;
+    background-size: 20px;
+    background-color: white;
+    padding-left: 25px;
+    background-position: 3px;
+}
+#d86 .question-icon {
+    background: url("./question.png") no-repeat;
+    background-size: 20px;
+    background-color: white;
+    padding-left: 30px;
+    background-position: 3px;
+}
 .twentytwo {
     width: 200px;
     height: 200px;
@@ -614,6 +635,65 @@ header {
 
 .sidebar ul {
   list-style-type: none;
+}
+#d91 nav {
+    position: relative;
+}
+#d91 .menu .menu-item {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.2rem;
+    height: 100%;
+    align-content: center;
+    padding: 0 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#d91 .menu .menu-item:hover{
+    background-color: var(--priamry);
+}
+#d91 .submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    background-color: black;
+    visibility: hidden;
+
+}
+#d91 .submenu a{
+    border-bottom: 1px solid black;
+}
+
+#d91 .menu-item:hover .submenu {
+    visibility: visible;
+}
+
+.tooltip {
+    position: relative;
+}
+#d95 .icon {
+    border: 1px solid black;
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 50px;
+    font-size: 10px;
+}
+
+#d95 .tooltip-text {
+    position: absolute;
+    top: -15px;
+    left: 35px;
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    width: 80px;
+    padding: 3px 6px;
+    
+}
+
+#d95 .tooltip:hover .tooltip-text {
+    visibility: visible;
 }
 
 .d96 {
